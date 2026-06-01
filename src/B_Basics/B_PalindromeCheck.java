@@ -14,8 +14,10 @@ public class B_PalindromeCheck {
         int xRem=0;
         int temp=x;
 
+        boolean palindrome=false;
+
         if (x<0){
-            return false;
+            return palindrome;
         }
 
         while(temp>0){
@@ -25,10 +27,10 @@ public class B_PalindromeCheck {
         }
 
         if(x==xRev){
-            return true;
+            palindrome=true;
         }
 
-        return false;
+        return palindrome;
         
     }
 }
