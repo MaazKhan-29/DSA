@@ -8,6 +8,7 @@ public class CharFrequencyCount {
     public int CharFrequency(String str) {
 
 
+        return 0;
     }
 }
-}
+
